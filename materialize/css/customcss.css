@@ -1,0 +1,18 @@
+.custom-buttom {
+  line-height: 20px !important;
+  height: 20px !important;
+}
+
+header, main, footer {
+  padding-left: 300px;
+}
+
+@media only screen and (min-width:990px) and (max-width:1366px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+  body {
+ 	width: calc(100% - 300px);
+ 	float: right;
+  }
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+<!-- Dropdown -->
+<ul id="dropdown1" class="dropdown-content">
+  <li>
+    <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Quick Add</label>
+        </div>
+        <a href="#!" class="btn-flat white black-text">Add</a>
+      </div>
+    </form>
+
+  </div>
+  </li>
+</ul>
+
+  <div class="row" >
+    <div class=" nav-wrapper col s12 m4 l3" style="padding-top:30px;">
+      <span class="red-text center-align hide-on-med-and-down" style="line-height:30px; margin-left:40px;">Calendar</span>
+      <div id="button-create" style="margin-left:30px;">
+        <a href="#!" class="btn button-collapse red waves-effect waves-light" style="padding:0 1rem; margin:0;">Create</a>
+        <a href="#!" class="dropdown-button btn red" data-activates='dropdown1' style="padding:0 .5rem; margin:0;">▼</a>
+      </div>
+      <!-- START mini Calendar -->
+      <div id="mini-calendar" style="padding: 15px; margin-left:15px;">
+        <table class="hide-on-med-and-down">
+          <thead>
+            <tr>
+              <th>S</th>
+              <th>M</th>
+              <th>T</th>
+              <th>W</th>
+              <th>T</th>
+              <th>F</th>
+              <th>S</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="grey-text">
+              <td>28</td>
+              <td>29</td>
+              <td>30</td>
+              <td>31</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td class="grey-text">4</td>
+              <td class="grey-text">5</td>
+              <td class="grey-text">6</td>
+              <td>7</td>
+              <td>8</td>
+              <td>9</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>12</td>
+              <td>13</td>
+              <td>14</td>
+              <td>15</td>
+              <td>16</td>
+              <td>17</td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td>19</td>
+              <td>20</td>
+              <td>21</td>
+              <td>22</td>
+              <td>23</td>
+              <td>24</td>
+            </tr>
+            <tr>
+              <td>25</td>
+              <td>26</td>
+              <td>27</td>
+              <td>28</td>
+              <td>29</td>
+              <td>30</td>
+              <td class="grey-text">1</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- END mini Calendar -->
+    </div>
+    <div class="col s12 m8 l9" style="padding-top:15px;">
+
+      <!-- START Calendar Toolbar  -->
+      <div id="calendar-toolbar" class="nav-wrapper">
+        <div class="collection left" style="height:auto; line-height: 20%; margin:3px 0;">
+          <a href="#!" class="btn waves-effect white black-text" style="height:auto; line-height: normal; margin:0; padding:0 1rem;"><</a>
+          <a href="#!" class="btn waves-effect white black-text" style="height:auto; line-height: normal; margin:0; padding:0 1rem;">></a>
+          <a href="#!" class="btn waves-effect white black-text" style="height:auto; line-height:normal; padding:0 1rem;">Today</a>
+        </div>
+        <div class="collection right" style="height:auto; line-height: 20%; margin:3px 0;">
+          <a href="#!" class="btn waves-effect white black-text" style="height:auto; line-height: normal; margin:0; padding:0 .5rem;">month</a>
+          <a href="#!" class="btn waves-effect white black-text" style="height:auto; line-height: normal; margin:0; padding:0 .5rem;">week</a>
+          <a href="#!" class="btn waves-effect white black-text" style="height:auto; line-height: normal; margin:0; padding:0 .5rem;">day</a>
+        </div>
+        <div class="center">
+          <h5>June 2017</h5>
+        </div>
+      </div>
+      <!--  END Calendar Toolbar  -->
+
+      <!-- START Full Calendar -->
+      <div id="full-calendar" style="padding: 15px; margin-left:15px;">
+        <table class="bordered">
+          <thead>
+            <tr>
+              <th>Sun</th>
+              <th>Mon</th>
+              <th>Tue</th>
+              <th>Wed</th>
+              <th>Thu</th>
+              <th>Fri</th>
+              <th>Sat</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="grey-text">
+              <td>28</td>
+              <td>29</td>
+              <td>30</td>
+              <td>31</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td class="grey-text">4</td>
+              <td class="grey-text">5</td>
+              <td class="grey-text">6</td>
+              <td>7</td>
+              <td>8</td>
+              <td>9</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>12</td>
+              <td>13</td>
+              <td>14</td>
+              <td>15</td>
+              <td>16</td>
+              <td>17</td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td>19</td>
+              <td>20</td>
+              <td>21</td>
+              <td>22</td>
+              <td>23</td>
+              <td>24</td>
+            </tr>
+            <tr>
+              <td>25</td>
+              <td>26</td>
+              <td>27</td>
+              <td>28</td>
+              <td>29</td>
+              <td>30</td>
+              <td class="grey-text">Jul 1</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- END Full Calendar -->
+    </div>
+  </div>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>
