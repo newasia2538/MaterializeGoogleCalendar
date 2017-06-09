@@ -1,245 +1,245 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="css/custom-css-for-day-page.css"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="css/customcss.css"  media="screen,projection"/>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/custom-css-for-day-page.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/customcss.css"  media="screen,projection"/>
 
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <nav>
+  <nav>
 
-      <!-- START Side Nav -->
-      <ul id="slide-out" class="side-nav fixed">
-        <li>
-          <div class="nav-wrapper" style="margin-left:16px;">
-            <img src="pic/google.png" alt style="width:30%; height:30%;">
-            <span class="grey-text darken-3 name" >Calendar</span>
-          </div>
-        </li>
-        <li class="divider"></li>
-        <li>
-          <a href="index.html" class="waves-effect blue-text">
-            <i class="material-icons blue-text">view_stream</i>
-            Schedule
-          </a>
-        </li>
-
-        <li>
-          <a href="#!" class="waves-effect">
-            <i class="material-icons">view_day</i>
-            <span class=" black-text"> Day </span>
-          </a>
-        </li>
-        <li>
-          <a href="three-day-page.html" class="waves-effect">
-            <i class="material-icons">view_column</i>
-            <span class=" black-text"> 3 Day </span>
-          </a>
-        </li>
-        <li>
-          <a href="week.html" class="waves-effect">
-            <i class="material-icons">view_column</i>
-            <span class="black-text"> Week </span>
-          </a>
-        </li>
-        <li>
-          <a href="month.html" class="waves-effect">
-            <i class="material-icons">view_module</i>
-            <span class="black-text"> Month </span>
-          </a>
-        </li>
-        <li>
-          <a href="search-page.html" class="waves-effect">
-            <i class="material-icons">search</i>
-            <span class="black-text"> Search </span>
-          </a>
-        </li>
-        <li class="divider"></li>
-        <li class="avatar" style="background-color: #fff; padding: 10px 20px; margin: 0;">
-          <img src="pic/profile.png" alt class="circle" style="position: absolute;
-          width: 42px;
-          height: 42px;
-          overflow: hidden;
-          left: 25px;
-          display: inline-block;
-          vertical-align: middle;">
-          <span class="subheader" style="padding-left:60px;">john.dev@gmail.com</span>
-        </li>
-        <li>
-          <a href="#!" class="waves-effect" style="line-height:20px;">
-            <p>
-              <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
-              <label class="black-text" for="filled-in-box"> Events</label>
-            </p>
-          </a>
-        </li>
-        <li>
-          <a href="#!" class="waves-effect" style="line-height:20px;">
-            <p>
-              <input type="checkbox" class="filled-in" id="filled-in-box2" checked="checked" />
-              <label class="black-text" for="filled-in-box2"> Reminders </label>
-            </p>
-          </a>
-        </li>
-        <li>
-          <a href="#!" class="waves-effect">
-            <i class="material-icons">account_circle</i>
-            <span class="grey-text">My Calendar</span>
-          </a>
-        </li>
-        <li>
-          <a href="#!" class="waves-effect" style="line-height:20px;">
-            <p>
-              <input type="checkbox" class="filled-in" id="filled-in-box3" checked="checked" />
-              <label class="black-text" for="filled-in-box3"> My Calendar </label>
-            </p>
-          </a>
-        </li>
-        <li class="disabled">
-          <a href="#!" class="waves-effect">
-            <i class="material-icons">cake</i>
-            <span class="grey-text"> More </span>
-          </a>
-        </li>
-        <li>
-          <a href="#!" class="waves-effect" style="line-height:20px;">
-            <p>
-              <input type="checkbox" class="filled-in" id="filled-in-box4" checked="checked" />
-              <label class="black-text" for="filled-in-box4"> BirthDays </label>
-            </p>
-          </a>
-        </li>
-        <li>
-          <a href="#!" class="waves-effect" style="line-height:20px;" >
-            <p>
-              <input type="checkbox" class="filled-in" id="filled-in-box5" checked="checked" />
-              <label class="black-text" for="filled-in-box5"> Holidays </label>
-            </p>
-          </a>
-        </li>
-        <li class="divider"></li>
-
-        <li>
-          <a href="settings-page.html" class="waves-effect">
-            <i class="material-icons">settings</i>
-            <span class="black-text"> Settings </span>
-          </a>
-        </li>
-        <li>
-          <a href="help-page.html" class="waves-effect">
-            <i class="material-icons">help</i>
-            <span class="black-text"> Help & feedback </span>
-          </a>
-        </li>
-
-      </ul>
-      <!-- END Side Nav -->
-
-      <a href="#!" data-activates="slide-out" class="button-collapse">
-        <i class="material-icons black-text">menu</i>
-      </a>
-      <div class="nav-wrapper grey lighten-3">
-        <a href="#" class="dropdown-button black-text" data-activates="dropdown1" style="margin-left:20px; font-size:20px;"> June ▼ </a>
-        <div class="right">
-          <ul>
-            <li>
-              <a href="day.html"><i class="material-icons black-text">today</i></a>
-            </li>
-            <li>
-              <a  class="dropdown-button" href="#" data-activates="dropdown-to-refresh"><i class="material-icons black-text">more_vert</i></a>
-            </li>
-          </ul>
+    <!-- START Side Nav -->
+    <ul id="slide-out" class="side-nav fixed">
+      <li>
+        <div class="nav-wrapper" style="margin-left:16px;">
+          <img src="pic/google.png" alt style="width:30%; height:30%;">
+          <span class="grey-text darken-3 name" >Calendar</span>
         </div>
-      </div>
+      </li>
+      <li class="divider"></li>
+      <li>
+        <a href="index.html" class="waves-effect blue-text">
+          <i class="material-icons blue-text">view_stream</i>
+          Schedule
+        </a>
+      </li>
 
+      <li>
+        <a href="#!" class="waves-effect">
+          <i class="material-icons">view_day</i>
+          <span class=" black-text"> Day </span>
+        </a>
+      </li>
+      <li>
+        <a href="three-day-page.html" class="waves-effect">
+          <i class="material-icons">view_column</i>
+          <span class=" black-text"> 3 Day </span>
+        </a>
+      </li>
+      <li>
+        <a href="week.html" class="waves-effect">
+          <i class="material-icons">view_column</i>
+          <span class="black-text"> Week </span>
+        </a>
+      </li>
+      <li>
+        <a href="month.html" class="waves-effect">
+          <i class="material-icons">view_module</i>
+          <span class="black-text"> Month </span>
+        </a>
+      </li>
+      <li>
+        <a href="search-page.html" class="waves-effect">
+          <i class="material-icons">search</i>
+          <span class="black-text"> Search </span>
+        </a>
+      </li>
+      <li class="divider"></li>
+      <li class="avatar" style="background-color: #fff; padding: 10px 20px; margin: 0;">
+        <img src="pic/profile.png" alt class="circle" style="position: absolute;
+        width: 42px;
+        height: 42px;
+        overflow: hidden;
+        left: 25px;
+        display: inline-block;
+        vertical-align: middle;">
+        <span class="subheader" style="padding-left:60px;">john.dev@gmail.com</span>
+      </li>
+      <li>
+        <a href="#!" class="waves-effect" style="line-height:20px;">
+          <p>
+            <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+            <label class="black-text" for="filled-in-box"> Events</label>
+          </p>
+        </a>
+      </li>
+      <li>
+        <a href="#!" class="waves-effect" style="line-height:20px;">
+          <p>
+            <input type="checkbox" class="filled-in" id="filled-in-box2" checked="checked" />
+            <label class="black-text" for="filled-in-box2"> Reminders </label>
+          </p>
+        </a>
+      </li>
+      <li>
+        <a href="#!" class="waves-effect">
+          <i class="material-icons">account_circle</i>
+          <span class="grey-text">My Calendar</span>
+        </a>
+      </li>
+      <li>
+        <a href="#!" class="waves-effect" style="line-height:20px;">
+          <p>
+            <input type="checkbox" class="filled-in" id="filled-in-box3" checked="checked" />
+            <label class="black-text" for="filled-in-box3"> My Calendar </label>
+          </p>
+        </a>
+      </li>
+      <li class="disabled">
+        <a href="#!" class="waves-effect">
+          <i class="material-icons">cake</i>
+          <span class="grey-text"> More </span>
+        </a>
+      </li>
+      <li>
+        <a href="#!" class="waves-effect" style="line-height:20px;">
+          <p>
+            <input type="checkbox" class="filled-in" id="filled-in-box4" checked="checked" />
+            <label class="black-text" for="filled-in-box4"> BirthDays </label>
+          </p>
+        </a>
+      </li>
+      <li>
+        <a href="#!" class="waves-effect" style="line-height:20px;" >
+          <p>
+            <input type="checkbox" class="filled-in" id="filled-in-box5" checked="checked" />
+            <label class="black-text" for="filled-in-box5"> Holidays </label>
+          </p>
+        </a>
+      </li>
+      <li class="divider"></li>
 
-      <!-- dropdown to refresh this page -->
-      <ul id="dropdown-to-refresh" class="dropdown-content">
-        <li><a href="day.html">Refresh</a></li>
+      <li>
+        <a href="settings-page.html" class="waves-effect">
+          <i class="material-icons">settings</i>
+          <span class="black-text"> Settings </span>
+        </a>
+      </li>
+      <li>
+        <a href="help-page.html" class="waves-effect">
+          <i class="material-icons">help</i>
+          <span class="black-text"> Help & feedback </span>
+        </a>
+      </li>
 
-      </ul>
+    </ul>
+    <!-- END Side Nav -->
 
-      <!-- Dropdown Structure -->
-      <ul id="dropdown1" class="dropdown-content">
-        <li><a href="#!">one</a></li>
-
-      </ul>
-
-
-    </nav>
-
-  </head>
-
-  <body>
-
-    <div class="row">
-      <div class="col s3 m3 l3 center" style="margin-left:-64px;">
-        <h5 class="blue-text accent-4" > 8 </h5>
-        <h6 class="blue-text accent-4" style="line-height:0;">Thu</h6>
-        <p>1 AM</p>
-        <p>2 AM</p>
-        <p>3 AM</p>
-        <p>4 AM</p>
-        <p>5 AM</p>
-        <p>6 AM</p>
-        <p>7 AM</p>
-        <p>8 AM</p>
-        <p>9 AM</p>
-        <p>10 AM</p>
-        <p>11 AM</p>
-        <p>12 AM</p>
-        <p>1 PM</p>
-        <p>2 PM</p>
-        <p>3 PM</p>
-        <p>4 PM</p>
-        <p>5 PM</p>
-        <p>6 PM</p>
-        <p>7 PM</p>
-        <p>8 PM</p>
-        <p>9 PM</p>
-        <p>10 PM</p>
-        <p>11 PM</p>
-        <p>12 PM</p>
-      </div>
-      <div class="col s9 m9 l9" style="margin-top:48px;">
-        <div>
-          <a href="#!"></a>
-        </div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div style="margin-top:8px;"></div> <!-- line 10 AM -->
-        <div style="margin-top:8px;"></div> <!-- line 11 AM -->
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div style="margin-top:4px;"></div> <!-- line 11 PM -->
-        <div></div>
+    <a href="#!" data-activates="slide-out" class="button-collapse">
+      <i class="material-icons black-text">menu</i>
+    </a>
+    <div class="nav-wrapper grey lighten-3">
+      <a href="#" class="dropdown-button black-text" data-activates="dropdown1" style="margin-left:20px; font-size:20px;"> June ▼ </a>
+      <div class="right">
+        <ul>
+          <li>
+            <a href="day.html"><i class="material-icons black-text">today</i></a>
+          </li>
+          <li>
+            <a  class="dropdown-button" href="#" data-activates="dropdown-to-refresh"><i class="material-icons black-text">more_vert</i></a>
+          </li>
+        </ul>
       </div>
     </div>
 
 
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/customjs.js"></script>
-  </body>
+    <!-- dropdown to refresh this page -->
+    <ul id="dropdown-to-refresh" class="dropdown-content">
+      <li><a href="day.html">Refresh</a></li>
+
+    </ul>
+
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="#!">one</a></li>
+
+    </ul>
+
+
+  </nav>
+
+</head>
+
+<body>
+
+  <div class="row">
+    <div class="col s3 m3 l3 center" style="margin-left:-64px;">
+      <h5 class="blue-text accent-4" > 8 </h5>
+      <h6 class="blue-text accent-4" style="line-height:0;">Thu</h6>
+      <p>1 AM</p>
+      <p>2 AM</p>
+      <p>3 AM</p>
+      <p>4 AM</p>
+      <p>5 AM</p>
+      <p>6 AM</p>
+      <p>7 AM</p>
+      <p>8 AM</p>
+      <p>9 AM</p>
+      <p>10 AM</p>
+      <p>11 AM</p>
+      <p>12 AM</p>
+      <p>1 PM</p>
+      <p>2 PM</p>
+      <p>3 PM</p>
+      <p>4 PM</p>
+      <p>5 PM</p>
+      <p>6 PM</p>
+      <p>7 PM</p>
+      <p>8 PM</p>
+      <p>9 PM</p>
+      <p>10 PM</p>
+      <p>11 PM</p>
+      <p>12 PM</p>
+    </div>
+    <div class="col s9 m9 l9" style="margin-top:48px;">
+      <div>
+        <a href="#!"></a>
+      </div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div style="margin-top:8px;"></div> <!-- line 10 AM -->
+      <div style="margin-top:8px;"></div> <!-- line 11 AM -->
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div style="margin-top:4px;"></div> <!-- line 11 PM -->
+      <div></div>
+    </div>
+  </div>
+
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/customjs.js"></script>
+</body>
 </html>
