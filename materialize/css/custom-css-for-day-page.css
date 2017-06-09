@@ -1,0 +1,15 @@
+.row p {
+  margin:40px 24px 8px 24px;
+}
+
+.col.s9.m9.l9 div{
+  width:auto;
+  height: 60px;
+  border-bottom: 1px solid #d0d0d0;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.col.s9.m9.l9 div a:focus {
+  background-color: #64ffda;
+}
