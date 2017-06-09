@@ -5,8 +5,8 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="css/custom-css-for-day-page.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="css/customcss.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/custom-css-for-three-day-page.css"  media="screen,projection"/>
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -30,13 +30,13 @@
         </li>
 
         <li>
-          <a href="#!" class="waves-effect">
+          <a href="day.html" class="waves-effect">
             <i class="material-icons">view_day</i>
             <span class=" black-text"> Day </span>
           </a>
         </li>
         <li>
-          <a href="three-day-page.html" class="waves-effect">
+          <a href="#!" class="waves-effect">
             <i class="material-icons">view_column</i>
             <span class=" black-text"> 3 Day </span>
           </a>
@@ -148,7 +148,7 @@
         <div class="right">
           <ul>
             <li>
-              <a href="day.html"><i class="material-icons black-text">today</i></a>
+              <a href="three-day-page.html"><i class="material-icons black-text">today</i></a>
             </li>
             <li>
               <a  class="dropdown-button" href="#" data-activates="dropdown-to-refresh"><i class="material-icons black-text">more_vert</i></a>
@@ -160,7 +160,7 @@
 
       <!-- dropdown to refresh this page -->
       <ul id="dropdown-to-refresh" class="dropdown-content">
-        <li><a href="day.html">Refresh</a></li>
+        <li><a href="three-day-page.html">Refresh</a></li>
 
       </ul>
 
@@ -176,65 +176,234 @@
   </head>
 
   <body>
+      <div class="row">
+      <table class="col s2 m2 l2">
+        <thead>
+                  <tr>
+                      <th style="height:82px;"></th>
+                  </tr>
+                </thead>
 
-    <div class="row">
-      <div class="col s3 m3 l3 center" style="margin-left:-64px;">
-        <h5 class="blue-text accent-4" > 8 </h5>
+                <tbody>
+                  <tr>
+                    <td id="first-column">1 AM</td>
+                  </tr>
+                  <tr>
+                    <td id="first-column" style="padding-top:48px">2 AM</td>
+                  </tr>
+                  <tr>
+                    <td id="first-column" style="padding-top:48px;">3 AM</td>
+                  </tr>
+                  <tr>
+                    <td id="first-column" style="padding-top:48px;">4 AM</td>
+                  </tr>
+                  <tr>
+                    <td id="first-column" style="padding-top:50px;">5 AM</td>
+                  </tr>
+                  <tr>
+                    <td id="first-column" style="padding-top:48px;">6 AM</td>
+                  </tr>
+                  <tr>
+                    <td id="first-column" style="padding-top:48px;">7 AM</td>
+                  </tr>
+                  <tr>
+                    <td id="first-column" style="padding-top:48px;">8 AM</td>
+                  </tr>
+                  <tr>
+                    <td id="first-column" style="padding-top:52px;">9 AM</td>
+                  </tr>
+                  <tr>
+                    <td id="first-column" style="padding-top:50px;">10 AM</td>
+                  </tr>
+                  <tr>
+                    <td id="first-column" style="padding-top:48px;">11 AM</td>
+                  </tr>
+                  <tr>
+                    <td id="first-column" style="padding-top:48px;">12 AM</td>
+                  </tr>
+                  <tr>
+                    <td id="first-column" style="padding-top:52px;">1 PM</td>
+                  </tr>
+                  <tr>
+                    <td id="first-column" style="padding-top:48px;">2 PM</td>
+                  </tr>
+                  <tr>
+                    <td id="first-column" style="padding-top:52px;">3 PM</td>
+                  </tr>
+                  <tr>
+                    <td id="first-column" style="padding-top:48px;">4 PM</td>
+                  </tr>
+                  <tr>
+                    <td id="first-column" style="padding-top:48px;">5 PM</td>
+                  </tr>
+                  <tr>
+                    <td id="first-column" style="padding-top:52px;">6 PM</td>
+                  </tr>
+                  <tr>
+                    <td id="first-column" style="padding-top:48px;">7 PM</td>
+                  </tr>
+                  <tr>
+                    <td id="first-column" style="padding-top:48px;">8 PM</td>
+                  </tr>
+                  <tr>
+                    <td id="first-column" style="padding-top:48px;">9 PM</td>
+                  </tr>
+                  <tr>
+                    <td id="first-column" style="padding-top:48px;">10 PM</td>
+                  </tr>
+                  <tr>
+                    <td id="first-column" style="padding-top:52px;">11 PM</td>
+                  </tr>
+                  <tr>
+                    <td id="first-column" style="padding-top:48px;">12 PM</td>
+                  </tr>
+                </tbody>
+      </table>
+    <table class="col s10 m10 l10">
+  <thead>
+    <tr>
+        <th><h5 class="blue-text accent-4" > 8 </h5>
         <h6 class="blue-text accent-4" style="line-height:0;">Thu</h6>
-        <p>1 AM</p>
-        <p>2 AM</p>
-        <p>3 AM</p>
-        <p>4 AM</p>
-        <p>5 AM</p>
-        <p>6 AM</p>
-        <p>7 AM</p>
-        <p>8 AM</p>
-        <p>9 AM</p>
-        <p>10 AM</p>
-        <p>11 AM</p>
-        <p>12 AM</p>
-        <p>1 PM</p>
-        <p>2 PM</p>
-        <p>3 PM</p>
-        <p>4 PM</p>
-        <p>5 PM</p>
-        <p>6 PM</p>
-        <p>7 PM</p>
-        <p>8 PM</p>
-        <p>9 PM</p>
-        <p>10 PM</p>
-        <p>11 PM</p>
-        <p>12 PM</p>
-      </div>
-      <div class="col s9 m9 l9" style="margin-top:48px;">
-        <div>
-          <a href="#!"></a>
-        </div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div style="margin-top:8px;"></div> <!-- line 10 AM -->
-        <div style="margin-top:8px;"></div> <!-- line 11 AM -->
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div style="margin-top:4px;"></div> <!-- line 11 PM -->
-        <div></div>
-      </div>
-    </div>
+      </th>
+      <th><h5 class="black-text" > 9 </h5>
+      <h6 class="black-text" style="line-height:0;">Fri</h6>
+    </th>
+    <th><h5 class="black-text" > 10 </h5>
+    <h6 class="black-text" style="line-height:0;">Sat</h6>
+  </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr id="detail-column">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr id="detail-column">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr id="detail-column">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr id="detail-column">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr id="detail-column">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr id="detail-column">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr id="detail-column">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr id="detail-column">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr id="detail-column">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr id="detail-column">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr id="detail-column">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr id="detail-column">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr id="detail-column">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr id="detail-column">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr id="detail-column">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr id="detail-column">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr id="detail-column">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr id="detail-column">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr id="detail-column">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr id="detail-column">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr id="detail-column">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr id="detail-column">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr id="detail-column">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr id="detail-column">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr id="detail-column">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
 
 
     <!--Import jQuery before materialize.js-->
