@@ -6286,7 +6286,7 @@ textarea.materialize-textarea + label:after {
   display: block;
   line-height: inherit;
   padding-left: 4rem;
-  width: calc(100% - 4rem);
+  width: calc(100% - 15rem);
 }
 
 .input-field input[type=search]:focus {
