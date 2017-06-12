@@ -1,0 +1,12 @@
+.height-in-row {
+  height: 32px;
+  margin: 40px 0;
+}
+
+.border-in-row{
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.row i{
+  cursor: default;
+}
