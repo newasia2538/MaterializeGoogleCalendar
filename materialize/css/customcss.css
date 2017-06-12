@@ -5,17 +5,17 @@
 
 #circle-number{
   display: block;
-    height: 22px;
-    width: 24px;
-    line-height: 2px;
+  height: 22px;
+  width: 24px;
+  line-height: 2px;
 
-    -moz-border-radius: 50%; /* or 50% */
-    border-radius: 50%; /* or 50% */
+  -moz-border-radius: 50%; /* or 50% */
+  border-radius: 50%; /* or 50% */
 
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-size: 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 15px;
 }
 
 #row-month-page{
@@ -32,7 +32,7 @@ header, main, footer {
     padding-left: 0;
   }
   body {
- 	width: calc(100% - 300px);
- 	float: right;
+    width: calc(100% - 300px);
+    float: right;
   }
 }
